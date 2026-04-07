@@ -7,7 +7,6 @@ from components.charts import create_funnel, create_donut, create_combo_chart, C
 
 def render():
     st.header("Executive Summary")
-    st.caption("At-a-glance campaign performance for media briefings")
 
     overview = read_cache("overview")
     if not overview:
